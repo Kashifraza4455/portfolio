@@ -3375,7 +3375,7 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  position: absolute;
+  position: relative;
   top: 0px;
 }
 
@@ -3490,7 +3490,11 @@ input[type="button"].btn-block {
   flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
-  list-style: none; }
+  list-style: none;
+  /* position: absolute;
+  bottom: 17px;
+  gap: 20px; */
+ }
   .navbar-nav .nav-link {
     padding-right: 0;
     padding-left: 0; }
@@ -8199,12 +8203,13 @@ h1, h2, h3, h4, h5,
       padding-left: 15px;
       padding-right: 15px; }
      }
-  .ftco-navbar-light .navbar-brand {
-    color: #000000;
-    padding-top: .7rem;
-    padding-bottom: .7rem; 
-    position: relative;
-    right: 200px;
+     .ftco-navbar-light .navbar-brand {
+      color: #000000;
+      padding-top: .7rem;
+      padding-bottom: .7rem;
+      position: relative;
+      right: 200px;
+      width: 57%;
   }
     .ftco-navbar-light .navbar-brand span {
       color: #000000; }
@@ -8220,11 +8225,12 @@ h1, h2, h3, h4, h5,
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
         font-size: 19px;
         color: black;
-        font-weight: 600;
-        opacity: 1 !important;
         text-transform: uppercase;
         font-weight: bolder;
-    }
+        opacity: 1 !important;
+        position: relative;
+        left: 73px;
+      } 
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link span {
       position: relative;
       display: block;
@@ -8265,7 +8271,11 @@ h1, h2, h3, h4, h5,
         padding-right: 0;
         padding-bottom: 1rem;
         padding-top: 0;
-        color: #fff; } }
+        color: #fff;
+        position: relative;
+        left: 0px;
+        text-align: center;
+    }}
   .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
     color: #fff;
     border: 1px solid #b1b493;
