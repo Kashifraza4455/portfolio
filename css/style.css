@@ -8601,6 +8601,17 @@ h1, h2, h3, h4, h5,
             .owl-carousel.home-slider .slider-item .slider-text h1 {
               font-size: 24px;
           }
+          .ftco-navbar-light.scrolled .navbar-toggler {
+            border: none;
+            color: rgba(0, 0, 0, 0.5) !important;
+            border-color: rgba(0, 0, 0, 0.5) !important;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-size: 16px;
+            letter-spacing: .1em;
+            position: relative;
+            left: -51px;
+        }
           .owl-carousel.home-slider .slider-item .slider-text .subheading {
             color: #000000;
             font-weight: 600;
