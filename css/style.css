@@ -8486,10 +8486,14 @@ h1, h2, h3, h4, h5,
         @media (max-width: 991.98px) {
           .owl-carousel.home-slider .slider-item .slider-text {
             text-align: center; }
-            .text {
+            #text {
               position: relative;
               top: 63px;
           }
+          #text1 {
+            font-size: 13px;
+            font-weight: 800;
+        }
             .owl-carousel.home-slider .slider-item .slider-text .subheading {
               color: #000000;
               font-weight: 600;
