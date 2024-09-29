@@ -708,6 +708,14 @@ pre {
     -ms-flex-positive: 1;
     flex-grow: 1;
     max-width: 100%; }
+    .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+      font-size: 19px;
+      color: black;
+      font-weight: 600;
+      opacity: 1 !important;
+      text-transform: uppercase;
+      font-weight: bolder;
+  }
   .col-sm-auto {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
@@ -3366,7 +3374,10 @@ input[type="button"].btn-block {
   flex-wrap: wrap;
   padding-left: 0;
   margin-bottom: 0;
-  list-style: none; }
+  list-style: none;
+  position: absolute;
+  top: 0px;
+}
 
 .nav-link {
   display: block;
@@ -8186,7 +8197,8 @@ h1, h2, h3, h4, h5,
       padding-top: 0;
       padding-bottom: 0;
       padding-left: 15px;
-      padding-right: 15px; } }
+      padding-right: 15px; }
+     }
   .ftco-navbar-light .navbar-brand {
     color: #000000;
     padding-top: .7rem;
@@ -8211,9 +8223,6 @@ h1, h2, h3, h4, h5,
         font-weight: 600;
         opacity: 1 !important;
         text-transform: uppercase;
-        position: relative;
-        bottom: 82px;
-        left: 72px;
         font-weight: bolder;
     }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link span {
@@ -8222,7 +8231,8 @@ h1, h2, h3, h4, h5,
       padding-bottom: 2px; }
       @media (max-width: 1199.98px) {
         .ftco-navbar-light .navbar-nav > .nav-item > .nav-link span {
-          display: inline-block; } }
+          display: inline-block; }
+   }
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link span:before {
         content: "";
         position: absolute;
